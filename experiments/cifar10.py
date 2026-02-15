@@ -139,7 +139,7 @@ class LocalXAICIFAR10Game(Game):
 if __name__ == "__main__":
     import os
     def compute_game(id_explain):
-        game = LocalXAICIFAR10Game(id_explain=id_explain)
+        game = LocalXAICIFAR10Game(id_explain=id_explain,use_model=True)
         save_path = f"experiments/cifar10_precomputed/cifar10_{id_explain}_game_values.npz"
         # game.summary()
         if os.path.exists(save_path):

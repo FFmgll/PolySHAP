@@ -39,7 +39,7 @@ if __name__ == "__main__":
     RUN_APPROXIMATION = True
 
     GAME_IDENTIFIERS = [
-        "CIFAR10",
+        "CIFAR10", #make sure to run the script experiments/cifar10.py beforehand to compute the values for the CIFAR10 game
         "SentimentIMDBDistilBERT14",
         "ResNet18w14Superpixel",
         "ViT3by3Patches",

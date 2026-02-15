@@ -54,7 +54,8 @@ pip install -r requirements.txt
 
 
 - **`approximation_baseline.py`**  
-  - Used for all non-tabular explanation games, i.e. ViT9, ViT16, ResNet18, DistillBERT  
+  - Used for all non-tabular explanation games, i.e. ViT9, ViT16, ResNet18, DistillBERT, CIFAR10  
+  - For CIFAR10, pre-compute game values via `/experiments/cifar10.py`
   - Uses baseline imputation and pre-computed games from shapiq.
   - Parallelization can be activated by uncommenting the corresponding line and commenting the current `explain_instance` function.  
     **Note:** Parallelization does not work well with RegressionMSR.

@@ -48,7 +48,7 @@ if __name__ == "__main__":
         PAIRING = True
 
     PRINT_PERFORMANCE = False
-    RUN_GROUND_TRUTH = False
+    RUN_GROUND_TRUTH = True
     RUN_APPROXIMATION = True
 
     # run the benchmark for the games
