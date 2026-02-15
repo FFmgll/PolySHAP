@@ -35,7 +35,7 @@ if __name__ == "__main__":
         REPLACEMENT = False
         PAIRING = True
 
-    RUN_GROUND_TRUTH = False
+    RUN_GROUND_TRUTH = True
     RUN_APPROXIMATION = True
 
     GAME_IDENTIFIERS = [
