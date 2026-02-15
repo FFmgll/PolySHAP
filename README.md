@@ -1,5 +1,7 @@
 # Supplementary Material for "PolySHAP: Extending KernelSHAP with Interaction-Informed Polynomial Regression"
 
+## Link to the paper: [PolySHAP: Extending KernelSHAP with Interaction-Informed Polynomial Regression](https://openreview.net/forum?id=M19J8UGguq)
+
 ## All experiments can be found in the `experiments` folder.
 
 
