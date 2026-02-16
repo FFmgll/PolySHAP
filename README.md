@@ -97,9 +97,10 @@ pip install -r requirements.txt
 
 - **`runtime_analysis.py`**  
   - Variant of `approximation_pathdependent.py`  
-  - Stores results for:  
-    - PolySHAP → `runtime_analysis.csv`  
-    - RegressionMSR → `runtime_analysis_baselines.csv`  
+  - Stores results for path-dependent games in `runtime_analysis.csv`
+
+- `runtime_analysis_cifar10.py`
+  - Stores results for CIFAR10 with ViT inference in `runtime_analysis_cifar10.csv`
 
 - **`plot_runtime_analysis.py`**  
   - Creates runtime plots and stores them in `/experiments/plots/runtime_analysis`
